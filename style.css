@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Inter', sans-serif;
 }
@@ -152,12 +153,12 @@ body{
 .action .video{
     background: white;
     min-height: 100px;
-    padding: 20px;
+    padding: 0;
     border-radius: 2rem;
     width: 700px;
     height: 350px;
     text-align: center;
-    margin-left: 330px;
+    margin-left: 310px;
 }
 .partners .multipartners .first1, .second1, .third1{
     background: #eeeeee;
@@ -250,10 +251,19 @@ body{
     border-radius: 0.5rem;
     border: none;
     width: 92%;
-    height: 160px;
+    height: 21px;
+    padding-bottom: 163px;
 }
 .navbar .nav{
     display: flex;
     justify-content: space-between;
     padding: 2rem;
+}
+.map .embed .map1{
+    height: 432px;
+    margin-top: 100px;
+    width: 100%;
+}
+iframe{
+    width: 100%;
 }
